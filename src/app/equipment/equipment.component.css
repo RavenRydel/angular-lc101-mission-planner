@@ -8,9 +8,24 @@ button {
     cursor: pointer;
 }
 
+.activeButtons {
+    background-color: yellow;
+}
+
+button:disabled {
+    background-color: white;
+}
+
 h3 {
     text-align: center;
 }
+
+.nearMaxMass {
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
 
 /* Add an 'active' class to style the background of the 'Add to Cargo Hold' buttons. */
 
